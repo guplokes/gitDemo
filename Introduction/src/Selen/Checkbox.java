@@ -14,6 +14,7 @@ public class Checkbox {
 		WebDriver driver = new ChromeDriver();
 		// clicking on the check box
 		driver.get("https://www.spicejet.com/");
+		System.out.println("This is demo Git practice");
 		
 		Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
 		

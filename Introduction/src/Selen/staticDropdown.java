@@ -16,7 +16,7 @@ public class staticDropdown {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise");
-		
+		System.out.println("This is demo Git practice");
 		/*To undrstand static Dropdown--------(Select dropdown)
 		-------------------------*/
 		
