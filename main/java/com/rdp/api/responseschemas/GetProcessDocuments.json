@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetProcessDocuments",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "DocId": {
+        "type": "number"
+      },
+      "DocName": {
+        "type": "string"
+      },
+      "DocPath": {
+        "type": "string"
+      },
+      "ChildDocumentViewer": {
+        "type": ["array", "null"],
+        "items": {
+          "type": "object",
+          "properties": {
+            "DocId": {
+              "type": "number"
+            },
+            "DocName": {
+              "type": "string"
+            },
+            "DocPath": {
+              "type": "string"
+            },
+            "ChildDocumentViewer": {}
+          },
+          "required": [
+            "DocId",
+            "DocName",
+            "DocPath",
+            "ChildDocumentViewer"
+          ]
+        }
+      }
+    },
+    "required": [
+      "DocId",
+      "DocName",
+      "DocPath",
+      "ChildDocumentViewer"
+    ]
+  }
+}

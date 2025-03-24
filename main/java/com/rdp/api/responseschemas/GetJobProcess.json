@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetJobProcess",
+  "type": "object",
+  "properties": {
+    "Entity": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "number"
+          },
+          "ProcessId": {
+            "type": "number"
+          },
+          "Lob": {
+            "type": "string"
+          },
+          "AccUserDef1": {
+            "type": ["string", "null"]
+          },
+          "AccUserDef2": {
+            "type": ["string", "null"]
+          },
+          "AccUserDef3": {
+            "type": ["string", "null"]
+          },
+          "AccUserDef4": {
+            "type": ["string", "null"]
+          },
+          "AccUserDef5": {
+            "type": ["string", "null"]
+          },
+          "AccountName": {
+            "type": "string"
+          },
+          "AccountNo": {
+            "type": ["string", "null"]
+          },
+          "RequestType": {
+            "type": "string"
+          },
+          "ProcessingStatus": {
+            "type": "string"
+          },
+          "UnitName": {
+          "type": ["string", "null"]
+          },
+          "IsEdit": {
+            "type": "number"
+          },
+          "CleansingAssociate": {
+          "type": ["string", "null"]
+          },
+          "CleansingQA": {
+          "type": ["string", "null"]
+          },
+          "ModellingAssociate": {          
+          "type": ["string", "null"]
+          },
+          "ModellingQA": {
+          "type": ["string", "null"]
+          },
+          "ReportingAssociate": {
+          "type": ["string", "null"]
+          },
+          "ReportingQA": {
+          "type": ["string", "null"]
+          },
+          "Complexity": {
+          "type": ["string", "null"]
+          },
+          "ProcessMode": {
+            "type":  ["string", "null"]
+          }
+        },
+        "required": [
+          "ID",
+          "ProcessId",
+          "Lob",
+          "AccountName",
+          "AccountNo",
+          "RequestType",
+          "ProcessingStatus",
+          "UnitName",
+          "IsEdit",
+          "CleansingAssociate",
+          "CleansingQA",
+          "ModellingAssociate",
+          "ModellingQA",
+          "ReportingAssociate",
+          "ReportingQA",
+          "Complexity",
+          "ProcessMode"
+        ]
+      }
+    },
+    "TotalRowCount": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "Entity",
+    "TotalRowCount"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "RequestId": {
+          "type": "integer"
+        },
+        "LinkProcessId": {
+          "type": "integer"
+        },
+        "AccountName": {
+          "type": "string"
+        },
+        "AccountNo": {
+          "type": "string"
+        },
+        "AccountType": {
+          "type": "string"
+        },
+        "ProcessingStatus": {
+          "type": "string"
+        },
+        "EffectiveDate": {
+          "type": "string"
+        },
+        "ExpirationDate": {
+          "type": "string"
+        },
+        "DueDate": {
+          "type": "string"
+        },
+        "BusinessType": {
+          "type": "string"
+        },
+        "NoOfLocation": {
+          "type": "string"
+        },
+        "UnderwriterName": {
+          "type": "string"
+        },
+        "BranchName": {
+          "type": "string"
+        },
+        "RequestType": {
+          "type": "string"
+        },
+        "Lob": {
+          "type": "string"
+        },
+        "PreviousStatus": {
+          "type": "null"
+        },
+        "LobId": {
+          "type": "integer"
+        },
+        "Currency": {
+          "type": "string"
+        },
+        "Comments": {
+          "type": "null"
+        },
+        "Platform": {
+          "type": "string"
+        },
+        "SOVFilePath": {
+          "type": "string"
+        },
+        "BusinessTypeReason": {
+          "type": "null"
+        },
+        "TIV": {
+          "type": "integer"
+        },
+        "SubLobId": {
+          "type": "integer"
+        },
+        "SubLob": {
+          "type": "string"
+        },
+        "Perils": {
+          "type": "string"
+        },
+        "UserId": {
+          "type": "integer"
+        },
+        "RaisedBy": {
+          "type": "string"
+        },
+        "BrokerName": {
+          "type": "string"
+        },
+        "JobType": {
+          "type": "string"
+        },
+        "CleansingAssociate": {
+          "type": "string"
+        },
+        "CleansingQA": {
+          "type": "string"
+        },
+        "ModellingAssociate": {
+          "type": "string"
+        },
+        "ModellingQA": {
+          "type": "string"
+        },
+        "ReportingAssociate": {
+          "type": "string"
+        },
+        "ReportingQA": {
+          "type": "string"
+        },
+        "Complexity": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "RequestId",
+        "LinkProcessId",
+        "AccountName",
+        "AccountNo",
+        "AccountType",
+        "ProcessingStatus",
+        "EffectiveDate",
+        "ExpirationDate",
+        "DueDate",
+        "BusinessType",
+        "NoOfLocation",
+        "UnderwriterName",
+        "BranchName",
+        "RequestType",
+        "Lob",
+        "PreviousStatus",
+        "LobId",
+        "Currency",
+        "Comments",
+        "Platform",
+        "SOVFilePath",
+        "BusinessTypeReason",
+        "TIV",
+        "SubLobId",
+        "SubLob",
+        "Perils",
+        "UserId",
+        "RaisedBy",
+        "BrokerName",
+        "JobType",
+        "CleansingAssociate",
+        "CleansingQA",
+        "ModellingAssociate",
+        "ModellingQA",
+        "ReportingAssociate",
+        "ReportingQA",
+        "Complexity"
+      ]
+    }
+  ]
+}

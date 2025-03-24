@@ -1,0 +1,385 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetJob",
+  "type": "object",
+  "properties": {
+    "AccountName": {
+      "type": "string"
+    },
+    "AccountNo": {
+      "type": "string"
+    },
+    "AccountType": {
+      "type": "string"
+    },
+    "ReinsuredName": {
+      "type": "string"
+    },
+    "Perils": {
+      "type": "string"
+    },
+    "NoOfLocation": {
+      "type": "string"
+    },
+    "EffectiveDate": {
+      "type": "string"
+    },
+    "UnderwriterId": {
+      "type": "number"
+    },
+    "UnderwriterName": {
+      "type": "string"
+    },
+    "TIV": {
+      "type": "number"
+    },
+    "ExpirationDate": {
+      "type": "string"
+    },
+    "BranchId": {
+      "type": "number"
+    },
+    "BranchName": {
+      "type": "string"
+    },
+    "Priority": {
+      "type": "string"
+    },
+    "DueDate": {
+      "type": "string"
+    },
+    "RequestTypeId": {
+      "type": "number"
+    },
+    "RequestType": {
+      "type": "string"
+    },
+    "CurrencyId": {
+      "type": "number"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "BusinessTypeId": {
+      "type": "number"
+    },
+    "BusinessType": {
+      "type": "string"
+    },
+    "BusinessTypeReason": {
+      "type": "string"
+    },
+    "RequestTypeReason": {},
+    "InternationalExposure": {
+      "type": "boolean"
+    },
+    "LobId": {
+      "type": "number"
+    },
+    "Lob": {
+      "type": "string"
+    },
+    "LobCode": {
+      "type": ["string", "null"]
+    },
+    "BrokerName": {
+      "type": "string"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "PerilNames": {
+      "type": "string"
+    },
+    "SOVFilePath": {
+      "type": "string"
+    },
+    "ProposedDate": {},
+    "PreviousAddExpectingDate": {},
+    "Platform": {
+      "type": "string"
+    },
+    "IsNoTouch": {
+      "type": "string"
+    },
+    "AccUserDef1": {
+      "type": ["string", "null"]
+    },
+    "AccUserDef2": {
+      "type": ["string", "null"]
+    },
+    "AccUserDef3": {
+      "type": ["string", "null"]
+    },
+    "AccUserDef4": {
+      "type": ["string", "null"]
+    },
+    "AccUserDef5": {
+      "type": ["string", "null"]
+    },
+    "SubLobId": {
+      "type": ["number", "null"]
+    },
+    "SubLob": {
+      "type": ["string", "null"]
+    },
+    "HighHazardEQ": {
+      "type": "string"
+    },
+    "PredominantConst": {
+      "type": "string"
+    },
+    "BIPOI": {
+      "type": "string"
+    },
+    "HighHazardWS": {
+      "type": "string"
+    },
+    "PredominantOcc": {
+      "type": "string"
+    },
+    "Values": {
+      "type": "string"
+    },
+    "Aggregates": {
+      "type": "string"
+    },
+    "Dropdown": {
+      "type": "string"
+    },
+    "LimitAppAusAcct": {
+      "type": "string"
+    },
+    "SOVBIValuesBasedOn": {
+      "type": "string"
+    },
+    "SelfInsuredRetention": {
+      "type": "number"
+    },
+    "SurveyReportPath": {
+      "type": "string"
+    },
+    "ProjectTerm": {
+      "type": "number"
+    },
+    "ProcessId": {
+      "type": "number"
+    },
+    "UserId": {},
+    "AppDate": {
+      "type": "string"
+    },
+    "ParentJobId": {
+      "type": "number"
+    },
+    "AccountSource": {},
+    "BusinessTypeOther": {
+      "type": "string"
+    },
+    "ModelLevelComment": {
+      "type": "string"
+    },
+    "HighHazardEQComment": {
+      "type": "string"
+    },
+    "HighHazardWSComment": {
+      "type": "string"
+    },
+    "IsSurveyReport": {
+      "type": "string"
+    },
+    "FinPolicyOptionlevels": {},
+    "FinPolicyPerilLevelCoding": {},
+    "DocumentTypes": {},
+    "AdditionalEvaluation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "AddRenewalDate": {},
+          "AddExpectingDate": {},
+          "AddQuatationDueDate": {},
+          "AddRegionPeril": {
+            "type": "string"
+          },
+          "AddTargetLines": {
+            "type": "string"
+          },
+          "AddIsStockThroughput": {
+            "type": "string"
+          },
+          "AddAdditinalInfo": {
+            "type": "string"
+          },
+          "AddAdditinalOtherInfo": {
+            "type": "string"
+          },
+          "AddAdditionalFilePath": {
+            "type": "string"
+          },
+          "AddAccountGoals": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "AddRenewalDate",
+          "AddExpectingDate",
+          "AddQuatationDueDate",
+          "AddRegionPeril",
+          "AddTargetLines",
+          "AddIsStockThroughput",
+          "AddAdditinalInfo",
+          "AddAdditinalOtherInfo",
+          "AddAdditionalFilePath",
+          "AddAccountGoals"
+        ]
+      }
+    },
+    "LocationData": {},
+    "AddIsStockThroughput": {},
+    "AppUserId": {
+      "type": "number"
+    },
+    "AppUserEmail": {},
+    "AccountAssignments": {},
+    "HighHazard": {
+      "type": "object",
+      "properties": {
+        "HighHazardEQ": {
+          "type": "string"
+        },
+        "HighHazardEQComment": {
+          "type": "string"
+        },
+        "HighHazardWS": {
+          "type": "string"
+        },
+        "HighHazardWSComment": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "HighHazardEQ",
+        "HighHazardEQComment",
+        "HighHazardWS",
+        "HighHazardWSComment"
+      ]
+    },
+    "PolicyBlanket": {},
+    "OldDueDate": {
+      "type": "string"
+    },
+    "UnderwriterEmail": {},
+    "ExternalErrorDetails": {},
+    "InternalErrorDetails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ErrorCount": {
+            "type": "number"
+          },
+          "ParentTask": {
+            "type": "string"
+          },
+          "CategoryType": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ErrorCount",
+          "ParentTask",
+          "CategoryType"
+        ]
+      }
+    },
+    "TatDays": {
+      "type": "number"
+    },
+    "LocationGroupByProcess": {}
+  },
+  "required": [
+    "AccountName",
+    "AccountNo",
+    "AccountType",
+    "ReinsuredName",
+    "Perils",
+    "NoOfLocation",
+    "EffectiveDate",
+    "UnderwriterId",
+    "UnderwriterName",
+    "TIV",
+    "ExpirationDate",
+    "BranchId",
+    "BranchName",
+    "Priority",
+    "DueDate",
+    "RequestTypeId",
+    "RequestType",
+    "CurrencyId",
+    "Currency",
+    "BusinessTypeId",
+    "BusinessType",
+    "BusinessTypeReason",
+    "RequestTypeReason",
+    "InternationalExposure",
+    "LobId",
+    "Lob",
+    "LobCode",
+    "BrokerName",
+    "Comments",
+    "PerilNames",
+    "SOVFilePath",
+    "ProposedDate",
+    "PreviousAddExpectingDate",
+    "Platform",
+    "IsNoTouch",
+    "AccUserDef1",
+    "AccUserDef2",
+    "AccUserDef3",
+    "AccUserDef4",
+    "AccUserDef5",
+    "SubLobId",
+    "SubLob",
+    "HighHazardEQ",
+    "PredominantConst",
+    "BIPOI",
+    "HighHazardWS",
+    "PredominantOcc",
+    "Values",
+    "Aggregates",
+    "Dropdown",
+    "LimitAppAusAcct",
+    "SOVBIValuesBasedOn",
+    "SelfInsuredRetention",
+    "SurveyReportPath",
+    "ProjectTerm",
+    "ProcessId",
+    "UserId",
+    "AppDate",
+    "ParentJobId",
+    "AccountSource",
+    "BusinessTypeOther",
+    "ModelLevelComment",
+    "HighHazardEQComment",
+    "HighHazardWSComment",
+    "IsSurveyReport",
+    "FinPolicyOptionlevels",
+    "FinPolicyPerilLevelCoding",
+    "DocumentTypes",
+    "AdditionalEvaluation",
+    "LocationData",
+    "AddIsStockThroughput",
+    "AppUserId",
+    "AppUserEmail",
+    "AccountAssignments",
+    "HighHazard",
+    "PolicyBlanket",
+    "OldDueDate",
+    "UnderwriterEmail",
+    "ExternalErrorDetails",
+    "InternalErrorDetails",
+    "TatDays",
+    "LocationGroupByProcess"
+  ]
+}

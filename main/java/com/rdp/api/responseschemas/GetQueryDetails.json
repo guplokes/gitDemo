@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetQueryDetails",
+  "type": "object",
+  "properties": {
+    "QueryDetails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ProcessId": {
+            "type": "number"
+          },
+          "MailToList": {},
+          "MailCCList": {},
+          "MailBCCList": {},
+          "QueryDetailsDate": {
+            "type": "string"
+          },
+          "HasAttachment": {
+            "type": "boolean"
+          },
+          "ClassificationType": {
+            "type": "string"
+          },
+          "UserName": {},
+          "ApplicationUser": {},
+          "ClassificationId": {
+            "type": "number"
+          },
+          "IsReply": {
+            "type": "boolean"
+          },
+          "QueryId": {
+            "type": "number"
+          },
+          "QueryDetailsId": {
+            "type": "number"
+          },
+          "MailBody": {
+            "type": "string"
+          },
+          "MailFrom": {
+            "type": "string"
+          },
+          "MailTo": {
+            "type": "string"
+          },
+          "MailCC": {
+            "type": "string"
+          },
+          "MailBCC": {
+            "type": "string"
+          },
+          "MailSubject": {
+            "type": "string"
+          },
+          "MailStatus": {
+            "type": "string"
+          },
+          "MailType": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ProcessId",
+          "MailToList",
+          "MailCCList",
+          "MailBCCList",
+          "QueryDetailsDate",
+          "HasAttachment",
+          "ClassificationType",
+          "UserName",
+          "ApplicationUser",
+          "ClassificationId",
+          "IsReply",
+          "QueryId",
+          "QueryDetailsId",
+          "MailBody",
+          "MailFrom",
+          "MailTo",
+          "MailCC",
+          "MailBCC",
+          "MailSubject",
+          "MailStatus",
+          "MailType"
+        ]
+      }
+    },
+    "FileList": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "QueryDetails",
+    "FileList"
+  ]
+}

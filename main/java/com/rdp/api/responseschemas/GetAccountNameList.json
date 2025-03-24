@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetAccountNameList",
+  "type": "object",
+  "properties": {
+    "accountNames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "AccountName": {
+            "type": "string"
+          },
+          "ProcessID": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "AccountName",
+          "ProcessID"
+        ]
+      }
+    }
+  },
+  "required": [
+    "accountNames"
+  ]
+}

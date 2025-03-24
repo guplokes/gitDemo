@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetImportColumnRepo",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Id": {
+        "type": "number"
+      },
+      "Category": {
+        "type": "string"
+      },
+      "ColumnName": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "Id",
+      "Category",
+      "ColumnName"
+    ]
+  }
+}

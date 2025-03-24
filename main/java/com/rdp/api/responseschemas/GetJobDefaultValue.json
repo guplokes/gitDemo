@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetJobDefaultValue",
+  "type": "object",
+  "properties": {
+    "Perils": {
+      "type": "string"
+    },
+    "NoOfLocation": {
+      "type": "string"
+    },
+    "TIV": {
+      "type": "number"
+    },
+    "Priority": {
+      "type": "string"
+    },
+    "RequestTypeId": {
+      "type": "number"
+    },
+    "CurrencyCode": {
+      "type": "string"
+    },
+    "BusinessTypeId": {
+      "type": "number"
+    },
+    "BusinessTypeReason": {
+      "type": "string"
+    },
+    "LobId": {
+      "type": "number"
+    },
+    "BusinessTypeOther": {
+      "type": "string"
+    },
+    "SOVFilePath": {
+      "type": "string"
+    },
+    "Platform": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "number"
+    },
+    "AppDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Perils",
+    "NoOfLocation",
+    "TIV",
+    "Priority",
+    "RequestTypeId",
+    "CurrencyCode",
+    "BusinessTypeId",
+    "BusinessTypeReason",
+    "LobId",
+    "BusinessTypeOther",
+    "SOVFilePath",
+    "Platform",
+    "UserId",
+    "AppDate"
+  ]
+}

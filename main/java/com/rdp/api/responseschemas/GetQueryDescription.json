@@ -1,0 +1,333 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "TotalRecord": {
+      "type": "integer"
+    },
+    "Entity": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "QueryDescription": {
+              "type": "string"
+            },
+            "QueryId": {
+              "type": "integer"
+            },
+            "QueryDetailsId": {
+              "type": "integer"
+            },
+            "ProcessId": {
+              "type": "integer"
+            },
+            "QueryDate": {
+              "type": "string"
+            },
+            "Classification": {
+              "type": "string"
+            },
+            "ClassificationId": {
+              "type": "integer"
+            },
+            "IsClosed": {
+              "type": "boolean"
+            },
+            "ClosedDate": {
+              "type": "null"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "AccountNo": {
+              "type": "string"
+            },
+            "CreatedBy": {
+              "type": "integer"
+            },
+            "ID": {
+              "type": "integer"
+            },
+            "AccountName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "QueryDescription",
+            "QueryId",
+            "QueryDetailsId",
+            "ProcessId",
+            "QueryDate",
+            "Classification",
+            "ClassificationId",
+            "IsClosed",
+            "ClosedDate",
+            "Status",
+            "AccountNo",
+            "CreatedBy",
+            "ID",
+            "AccountName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "QueryDescription": {
+              "type": "string"
+            },
+            "QueryId": {
+              "type": "integer"
+            },
+            "QueryDetailsId": {
+              "type": "integer"
+            },
+            "ProcessId": {
+              "type": "integer"
+            },
+            "QueryDate": {
+              "type": "string"
+            },
+            "Classification": {
+              "type": "string"
+            },
+            "ClassificationId": {
+              "type": "integer"
+            },
+            "IsClosed": {
+              "type": "boolean"
+            },
+            "ClosedDate": {
+              "type": "string"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "AccountNo": {
+              "type": "string"
+            },
+            "CreatedBy": {
+              "type": "integer"
+            },
+            "ID": {
+              "type": "integer"
+            },
+            "AccountName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "QueryDescription",
+            "QueryId",
+            "QueryDetailsId",
+            "ProcessId",
+            "QueryDate",
+            "Classification",
+            "ClassificationId",
+            "IsClosed",
+            "ClosedDate",
+            "Status",
+            "AccountNo",
+            "CreatedBy",
+            "ID",
+            "AccountName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "QueryDescription": {
+              "type": "string"
+            },
+            "QueryId": {
+              "type": "integer"
+            },
+            "QueryDetailsId": {
+              "type": "integer"
+            },
+            "ProcessId": {
+              "type": "integer"
+            },
+            "QueryDate": {
+              "type": "string"
+            },
+            "Classification": {
+              "type": "string"
+            },
+            "ClassificationId": {
+              "type": "integer"
+            },
+            "IsClosed": {
+              "type": "boolean"
+            },
+            "ClosedDate": {
+              "type": "string"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "AccountNo": {
+              "type": "string"
+            },
+            "CreatedBy": {
+              "type": "integer"
+            },
+            "ID": {
+              "type": "integer"
+            },
+            "AccountName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "QueryDescription",
+            "QueryId",
+            "QueryDetailsId",
+            "ProcessId",
+            "QueryDate",
+            "Classification",
+            "ClassificationId",
+            "IsClosed",
+            "ClosedDate",
+            "Status",
+            "AccountNo",
+            "CreatedBy",
+            "ID",
+            "AccountName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "QueryDescription": {
+              "type": "string"
+            },
+            "QueryId": {
+              "type": "integer"
+            },
+            "QueryDetailsId": {
+              "type": "integer"
+            },
+            "ProcessId": {
+              "type": "integer"
+            },
+            "QueryDate": {
+              "type": "string"
+            },
+            "Classification": {
+              "type": "string"
+            },
+            "ClassificationId": {
+              "type": "integer"
+            },
+            "IsClosed": {
+              "type": "boolean"
+            },
+            "ClosedDate": {
+              "type": "string"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "AccountNo": {
+              "type": "string"
+            },
+            "CreatedBy": {
+              "type": "integer"
+            },
+            "ID": {
+              "type": "integer"
+            },
+            "AccountName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "QueryDescription",
+            "QueryId",
+            "QueryDetailsId",
+            "ProcessId",
+            "QueryDate",
+            "Classification",
+            "ClassificationId",
+            "IsClosed",
+            "ClosedDate",
+            "Status",
+            "AccountNo",
+            "CreatedBy",
+            "ID",
+            "AccountName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "QueryDescription": {
+              "type": "string"
+            },
+            "QueryId": {
+              "type": "integer"
+            },
+            "QueryDetailsId": {
+              "type": "integer"
+            },
+            "ProcessId": {
+              "type": "integer"
+            },
+            "QueryDate": {
+              "type": "string"
+            },
+            "Classification": {
+              "type": "string"
+            },
+            "ClassificationId": {
+              "type": "integer"
+            },
+            "IsClosed": {
+              "type": "boolean"
+            },
+            "ClosedDate": {
+              "type": ["string", "null"]
+            },
+            "Status": {
+              "type": "string"
+            },
+            "AccountNo": {
+              "type": "string"
+            },
+            "CreatedBy": {
+              "type": "integer"
+            },
+            "ID": {
+              "type": "integer"
+            },
+            "AccountName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "QueryDescription",
+            "QueryId",
+            "QueryDetailsId",
+            "ProcessId",
+            "QueryDate",
+            "Classification",
+            "ClassificationId",
+            "IsClosed",
+            "ClosedDate",
+            "Status",
+            "AccountNo",
+            "CreatedBy",
+            "ID",
+            "AccountName"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "TotalRecord",
+    "Entity"
+  ]
+}

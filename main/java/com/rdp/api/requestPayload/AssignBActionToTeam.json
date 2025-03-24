@@ -1,0 +1,698 @@
+[
+  {
+    "Header": "Reports",
+    "TaskCode": "AAGRPT",
+    "IsActive": true,
+    "SubTasks1": [
+      {
+        "Header": "Internal Reports",
+        "IsActive": true,
+        "TaskCode": "AAGRPT",
+        "SubTasks2": [
+          {
+            "Header": "At A Glance",
+            "TaskCode": "AAGRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Account Aging Report",
+            "TaskCode": "AARPT",
+            "IsActive": true
+          },
+          {
+            "Header": "A Brief",
+            "TaskCode": "ABRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Activity Utilization Report",
+            "TaskCode": "AURPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Count Of Accounts(Auditor)",
+            "TaskCode": "COAARPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Count Of Accounts",
+            "TaskCode": "COAMRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Count Of Accounts(Priority)",
+            "TaskCode": "COAPRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Count Of Accounts(Status)",
+            "TaskCode": "COASRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Due Account Complexity",
+            "TaskCode": "DACRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Due Status",
+            "TaskCode": "DSRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Team By Complexity",
+            "TaskCode": "TBCRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "User Summary",
+            "TaskCode": "URSRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "User Production Report",
+            "TaskCode": "USRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Utilization Report",
+            "TaskCode": "UZRPT",
+            "IsActive": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Header": "Application",
+    "TaskCode": "ADBAF",
+    "IsActive": true,
+    "SubTasks1": [
+      {
+        "Header": "Dashboard",
+        "IsActive": true,
+        "TaskCode": "ADBAF",
+        "SubTasks2": [
+          {
+            "Header": "Advanced Filter",
+            "TaskCode": "ADBAF",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Configure Mail",
+        "IsActive": true,
+        "TaskCode": "COMMC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Reports",
+        "IsActive": true,
+        "TaskCode": "COMRPT",
+        "SubTasks2": [
+          {
+            "Header": "Reports",
+            "TaskCode": "COMRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Customized Reports",
+            "TaskCode": "CSRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Performance Reports",
+            "TaskCode": "KPIRPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Internal Reports",
+            "TaskCode": "MRPT",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Rule Engine",
+        "IsActive": true,
+        "TaskCode": "COMSNR",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Configure Tasks",
+        "IsActive": true,
+        "TaskCode": "COMTC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Manage Team",
+        "IsActive": true,
+        "TaskCode": "COMTEAM",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Manage User",
+        "IsActive": true,
+        "TaskCode": "COMUM",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Download Logs",
+        "IsActive": true,
+        "TaskCode": "DOWLOG",
+        "SubTasks2": []
+      },
+      {
+        "Header": "LMS",
+        "IsActive": true,
+        "TaskCode": "LMS",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Transformation",
+        "IsActive": true,
+        "TaskCode": "LMSEXPMNTR",
+        "SubTasks2": [
+          {
+            "Header": "Export Monitor",
+            "TaskCode": "LMSEXPMNTR",
+            "IsActive": true
+          },
+          {
+            "Header": "OED Transformation",
+            "TaskCode": "NEWTRANS",
+            "IsActive": true
+          },
+          {
+            "Header": "Process Transformation",
+            "TaskCode": "PROTRANS",
+            "IsActive": true
+          },
+          {
+            "Header": "Transformation",
+            "TaskCode": "TRANS",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Workflow",
+        "IsActive": true,
+        "TaskCode": "NOTOUCH",
+        "SubTasks2": [
+          {
+            "Header": "No Touch",
+            "TaskCode": "NOTOUCH",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "RENGN",
+        "IsActive": true,
+        "TaskCode": "RENGN",
+        "SubTasks2": []
+      },
+      {
+        "Header": "RuleEngine",
+        "IsActive": true,
+        "TaskCode": "RENGNCR",
+        "SubTasks2": [
+          {
+            "Header": "CreateRule",
+            "TaskCode": "RENGNCR",
+            "IsActive": true
+          },
+          {
+            "Header": "RuleAction",
+            "TaskCode": "RENGNRA",
+            "IsActive": true
+          },
+          {
+            "Header": "SwapRule",
+            "TaskCode": "RENGNSRN",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Configure App",
+        "IsActive": true,
+        "TaskCode": "WFLAC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Leave",
+        "IsActive": true,
+        "TaskCode": "WFLLVE",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Query Log",
+        "IsActive": true,
+        "TaskCode": "WFLQL",
+        "SubTasks2": []
+      }
+    ]
+  },
+  {
+    "Header": "Data Cleansing",
+    "TaskCode": "ANLZ",
+    "IsActive": true,
+    "SubTasks1": [
+      {
+        "Header": "Data Preparation",
+        "IsActive": true,
+        "TaskCode": "ANLZ",
+        "SubTasks2": [
+          {
+            "Header": "Annualize",
+            "TaskCode": "ANLZ",
+            "IsActive": true
+          },
+          {
+            "Header": "Export",
+            "TaskCode": "CDEX",
+            "IsActive": true
+          },
+          {
+            "Header": "Default Value",
+            "TaskCode": "CLNDVL",
+            "IsActive": true
+          },
+          {
+            "Header": "Approve",
+            "TaskCode": "CLNQCCOMPT",
+            "IsActive": true
+          },
+          {
+            "Header": "Sanity",
+            "TaskCode": "CLNSAN",
+            "IsActive": true
+          },
+          {
+            "Header": "Sanity Validation Log",
+            "TaskCode": "CLNSANERR",
+            "IsActive": true
+          },
+          {
+            "Header": "Summary",
+            "TaskCode": "CLNSUM",
+            "IsActive": true
+          },
+          {
+            "Header": "Upload Repository",
+            "TaskCode": "CLNURE",
+            "IsActive": true
+          },
+          {
+            "Header": "Data Compare",
+            "TaskCode": "DATACOMP",
+            "IsActive": true
+          },
+          {
+            "Header": "Geocoding",
+            "TaskCode": "GEOCODE",
+            "IsActive": true
+          },
+          {
+            "Header": "Third Party",
+            "TaskCode": "HAZARDDATA",
+            "IsActive": true
+          },
+          {
+            "Header": "Location On Map",
+            "TaskCode": "LOCMAP",
+            "IsActive": true
+          },
+          {
+            "Header": "Map Modifiers",
+            "TaskCode": "OEDMAPMOD",
+            "IsActive": true
+          },
+          {
+            "Header": "Polygon",
+            "TaskCode": "POLGN",
+            "IsActive": true
+          },
+          {
+            "Header": "Proration",
+            "TaskCode": "PRO",
+            "IsActive": true
+          },
+          {
+            "Header": "Reject",
+            "TaskCode": "RASNCLN",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Cleansing in Progress",
+        "IsActive": true,
+        "TaskCode": "DPREP",
+        "SubTasks2": []
+      },
+      {
+        "Header": "QC Verification",
+        "IsActive": true,
+        "TaskCode": "SCLNQC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Skip for Cleansing QC",
+        "IsActive": true,
+        "TaskCode": "SKPCLNGQC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Submit To QA",
+        "IsActive": true,
+        "TaskCode": "SUBMITQC",
+        "SubTasks2": []
+      }
+    ]
+  },
+  {
+    "Header": "Workflow",
+    "TaskCode": "CAN",
+    "IsActive": true,
+    "SubTasks1": [
+      {
+        "Header": "Request",
+        "IsActive": true,
+        "TaskCode": "CAN",
+        "SubTasks2": [
+          {
+            "Header": "Cancel Request",
+            "TaskCode": "CAN",
+            "IsActive": true
+          },
+          {
+            "Header": "Query",
+            "TaskCode": "INQUERY",
+            "IsActive": true
+          },
+          {
+            "Header": "Update Proposed Date",
+            "TaskCode": "UPROPD",
+            "IsActive": true
+          },
+          {
+            "Header": "Add Additonal Evaluation",
+            "TaskCode": "WAAE",
+            "IsActive": true
+          },
+          {
+            "Header": "Add Remodel Request",
+            "TaskCode": "WARR",
+            "IsActive": true
+          },
+          {
+            "Header": "Delete Request",
+            "TaskCode": "WDR",
+            "IsActive": true
+          },
+          {
+            "Header": "Review And Submit",
+            "TaskCode": "WRAS",
+            "IsActive": true
+          },
+          {
+            "Header": "Update Addional Evaluation Status",
+            "TaskCode": "WUAS",
+            "IsActive": true
+          },
+          {
+            "Header": "Update Request",
+            "TaskCode": "WUR",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Configuration",
+        "IsActive": true,
+        "TaskCode": "COMPC",
+        "SubTasks2": [
+          {
+            "Header": "Process Configuration",
+            "TaskCode": "COMPC",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Account",
+        "IsActive": true,
+        "TaskCode": "COMPLEX",
+        "SubTasks2": [
+          {
+            "Header": "Complexity Metrix",
+            "TaskCode": "COMPLEX",
+            "IsActive": true
+          },
+          {
+            "Header": "Completed",
+            "TaskCode": "COMPLT",
+            "IsActive": true
+          },
+          {
+            "Header": "External Errors",
+            "TaskCode": "EXTERR",
+            "IsActive": true
+          },
+          {
+            "Header": "Extraction from PDF",
+            "TaskCode": "EXTRTPDF",
+            "IsActive": true
+          },
+          {
+            "Header": "Geospatial",
+            "TaskCode": "GEOSPTL",
+            "IsActive": true
+          },
+          {
+            "Header": "On Hold",
+            "TaskCode": "HOLD",
+            "IsActive": true
+          },
+          {
+            "Header": "Move Account",
+            "TaskCode": "MOVEACCN",
+            "IsActive": true
+          },
+          {
+            "Header": "Process Documentation",
+            "TaskCode": "PRODOCM",
+            "IsActive": true
+          },
+          {
+            "Header": "Query Resoultion",
+            "TaskCode": "QUERYRES",
+            "IsActive": true
+          },
+          {
+            "Header": "Risk Inspection",
+            "TaskCode": "RSKINSP",
+            "IsActive": true
+          },
+          {
+            "Header": "Delegate Activity",
+            "TaskCode": "SUBTASK",
+            "IsActive": true
+          },
+          {
+            "Header": "Tool Development or Enhancement",
+            "TaskCode": "TLDEVPMTTENH",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Sub Task List",
+        "IsActive": true,
+        "TaskCode": "SUBTASKLST",
+        "SubTasks2": []
+      },
+      {
+        "Header": "View",
+        "IsActive": true,
+        "TaskCode": "WADOC",
+        "SubTasks2": [
+          {
+            "Header": "Account Documents",
+            "TaskCode": "WADOC",
+            "IsActive": true
+          },
+          {
+            "Header": "View Status",
+            "TaskCode": "WVDS",
+            "IsActive": true
+          },
+          {
+            "Header": "View Account Details",
+            "TaskCode": "WVJD",
+            "IsActive": true
+          },
+          {
+            "Header": "View Record Time",
+            "TaskCode": "WVVT",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Assign Work",
+        "IsActive": true,
+        "TaskCode": "WFLJA",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Job",
+        "IsActive": true,
+        "TaskCode": "WJAEE",
+        "SubTasks2": [
+          {
+            "Header": "Additional Evaluation Enabled",
+            "TaskCode": "WJAEE",
+            "IsActive": true
+          },
+          {
+            "Header": "External Users",
+            "TaskCode": "WJEU",
+            "IsActive": true
+          },
+          {
+            "Header": "Internal Users",
+            "TaskCode": "WJIU",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "JobDisplay",
+        "IsActive": true,
+        "TaskCode": "WJDAT",
+        "SubTasks2": [
+          {
+            "Header": "Account Type",
+            "TaskCode": "WJDAT",
+            "IsActive": true
+          }
+        ]
+      },
+      {
+        "Header": "Auto Allocation",
+        "IsActive": true,
+        "TaskCode": "WTAA",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Bulk Upload",
+        "IsActive": true,
+        "TaskCode": "WTAMR",
+        "SubTasks2": []
+      },
+      {
+        "Header": "UploadTemplate",
+        "IsActive": true,
+        "TaskCode": "WTAMRU",
+        "SubTasks2": []
+      },
+      {
+        "Header": "New Request",
+        "IsActive": true,
+        "TaskCode": "WTANR",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Other Activity",
+        "IsActive": true,
+        "TaskCode": "WTOA",
+        "SubTasks2": []
+      },
+      {
+        "Header": "ProcessMonitor",
+        "IsActive": true,
+        "TaskCode": "WTPM",
+        "SubTasks2": []
+      }
+    ]
+  },
+  {
+    "Header": "Data Modelling",
+    "TaskCode": "MDLCOMPT",
+    "IsActive": true,
+    "SubTasks1": [
+      {
+        "Header": "Modelling QC Complete",
+        "IsActive": true,
+        "TaskCode": "MDLCOMPT",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Modelling In Progress",
+        "IsActive": true,
+        "TaskCode": "MDLPRG",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Modelling QC In Progress",
+        "IsActive": true,
+        "TaskCode": "MDLQCPRG",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Skip Modelling QC",
+        "IsActive": true,
+        "TaskCode": "SKPMDLQC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Submitted For Modelling QC",
+        "IsActive": true,
+        "TaskCode": "SMDLQC",
+        "SubTasks2": []
+      }
+    ]
+  },
+  {
+    "Header": "Data Reporting",
+    "TaskCode": "RPTCOMPT",
+    "IsActive": true,
+    "SubTasks1": [
+      {
+        "Header": "Reporting QC Complete",
+        "IsActive": true,
+        "TaskCode": "RPTCOMPT",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Reporting In Progress",
+        "IsActive": true,
+        "TaskCode": "RPTPRG",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Reporting QC In Progress",
+        "IsActive": true,
+        "TaskCode": "RPTQCPRG",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Skip Reporting QC",
+        "IsActive": true,
+        "TaskCode": "SKPRPTQC",
+        "SubTasks2": []
+      },
+      {
+        "Header": "Submitted For Reporting QC",
+        "IsActive": true,
+        "TaskCode": "SRPTQC",
+        "SubTasks2": []
+      }
+    ]
+  }
+]

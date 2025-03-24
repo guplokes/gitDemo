@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for GetAllPendingJob",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "PendingJobID": {
+        "type": "number"
+      },
+      "UserID": {
+        "type": "number"
+      },
+      "JSONData": {},
+      "CreatedOn": {
+        "type": "string"
+      },
+      "CreatedTime": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "PendingJobID",
+      "UserID",
+      "JSONData",
+      "CreatedOn",
+      "CreatedTime"
+    ]
+  }
+}

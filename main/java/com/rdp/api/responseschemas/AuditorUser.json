@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Audito and Analyst User based on RoleId",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "LoginName": {
+        "type": "string"
+      },
+      "FirstName": {
+        "type": "string"
+      },
+      "LastName": {
+        "type": "string"
+      },
+      "UserName": {
+        "type": "string"
+      },
+      "RoleId": {
+        "type": "number"
+      },
+      "RoleName": {
+        "type": "string"
+      },
+      "UserId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "LoginName",
+      "FirstName",
+      "LastName",
+      "UserName",
+      "RoleId",
+      "RoleName",
+      "UserId"
+    ]
+  }
+}
